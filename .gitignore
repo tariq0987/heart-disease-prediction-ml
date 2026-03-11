@@ -35,7 +35,6 @@ data/*.data
 *.pkl
 *.h5
 *.joblib
-models/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
