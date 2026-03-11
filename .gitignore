@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (don't upload large files)
+*.csv
+*.data
+*.db
+*.sqlite
+data/*.csv
+data/*.data
+
+# Models (don't upload trained models)
+*.pkl
+*.h5
+*.joblib
+models/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
